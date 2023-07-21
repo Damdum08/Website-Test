@@ -1,0 +1,202 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Title */
+h1 {
+    text-shadow: 0 0 20px #00FFFC, 0 0 10px #00FFFC, 0px 0px 20px #00FFFC, 0 0 50px #00FFFC;
+    color: #00FFFC;
+    border: 10px solid rgb(47, 47, 47);
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font: 700 40px/1 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 5px;
+    border-radius: 10px 100px / 120px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2), 2px 2px 0px rgba(0, 0, 0, 0.15), 3px 3px 0px rgba(0, 0, 0, 0.1), 4px 4px 0px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(45deg, #efefeb, #58c5fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+  }
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
+  }
+  
+  
+
+/* Presentation */
+.présentation h2 {
+    color: #fff;
+    font: 24px/1.2 Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.présentation p, a {
+    color: #8f8f8f;
+    font: 16px/1.5 Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/* Table */
+.modern-table, .table-ex {
+    background-color: rgb(47, 47, 47);
+    font: 16px/1.5 Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+   
+}
+
+.modern-table td, .modern-table th,
+.table-ex td, .table-ex th {
+    border: 2px solid #1d1d1d;
+    padding: 10px;
+   
+}
+
+.modern-table th, .table-ex th {
+    padding: 12px;
+    background-color: #1d1d1d;
+    text-align: center;
+    
+}
+
+/* Button */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(200deg, #929496, #716f72);
+    border: none;
+    color: #fafafa;
+    padding: 16px 32px;
+    text-decoration: none;
+    font: 18px/1 Arial, sans-serif;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(207, 206, 204, 0.434);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* FORM */
+
+form {
+    background-color: #d2d49994;
+   
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(58, 27, 2, 0.362);
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #060606e4;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ffffffb1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #b22e2eb7;
+    color: #ffffffd7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #453647;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(245, 0, 0, 0.971);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+
+}
+
+li {
+    max-width: 200px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #9b9b9b;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    font-weight: bold;
+    color: #f6f6f6;
+    text-align: center;
+}
+
+#horloge {
+    font-size: 5em; /* taille de police de 5em */
+    text-align: center; /* centrage du texte */
+  }
